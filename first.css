@@ -1,0 +1,68 @@
+body {
+    background: url(Wallpaper.png) no-repeat;
+/* Фоновый рисунок */
+background-size: cover;
+background-attachment: fixed; }
+
+@font-face {
+    font-family: Alice;
+    src: url(Alice-Regular.ttf);
+}
+
+.welcome {
+    color: rgb(46, 46, 127);
+    font-family: Alice;
+    font-size: 25px;
+    border: 10px solid #ffffff;
+    padding: 14px 16px;
+
+}
+.welcome:hover {
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.7s;
+}
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Alice;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(39, 39, 149);
+    color: white;
+    transition-duration: 0.4s;
+  }
+  .who {
+   color:rgb(39, 39, 149);
+   font-family: Alice;
+  }
+  .button {
+    background-color: #ebebeb;
+    border: none;
+    color: rgb(46, 46, 127);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Alice;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    background-color: #ffffff;
+    color: rgb(39, 39, 149);
+  }
